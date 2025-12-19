@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.profile-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-card h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.profile-card table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.profile-card td {
+    border: none;
+    padding: 5px;
+}
+
+.profile-card img.profile-picture {
+    width: 100px;
+    height: 100px;
+    font-size: 1em;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-card .login {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.profile-card .description {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.social-icons img {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.contact-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.contact-button:hover {
+    background-color: #690808;
+}

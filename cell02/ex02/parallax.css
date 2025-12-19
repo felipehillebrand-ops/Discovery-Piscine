@@ -1,0 +1,45 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  color: rgb(92, 6, 6);
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax1 {
+  background-image: url('https://www.rollingstone.com/wp-content/uploads/2021/07/ronnie-james-dio-autobiography.jpg?w=1581&h=1054&crop=1');
+}
+
+.parallax2 {
+  background-image: url('https://i.scdn.co/image/ab67616d0000b2732457ab409ae106f8ae1dff89');
+}
+
+.content {
+  background-color: black;
+  padding: 100px 20px;
+  font-size: 2em;
+}
+
+.center-message {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border-radius: 10px;
+}
